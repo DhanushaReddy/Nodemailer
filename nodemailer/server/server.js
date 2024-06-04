@@ -20,12 +20,13 @@ let server=http.createServer((req,res)=>{
                     host: 'smtp.ethereal.email',
                     port: 587,
                     auth: {
-                        user: 'kevon.powlowski@ethereal.email',
-                        pass: 'wCPWhtFPkw2vnVyWRX'
+                        user: 'micaela.jast@ethereal.email',
+                        pass: 'kkPcJSQXBAw3CHDfTT'
                     }
                 });
+                
                 await transporter.sendMail({
-                    from:"kevon.powlowski@ethereal.email",
+                    from:"micaela.jast@ethereal.email",
                     to:email,
                     subject:"Netflix subscription",
                     text:"netflix plans",
